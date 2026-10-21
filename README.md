@@ -310,7 +310,14 @@ Mark Voter as Already Voted
 * 📡 Serial interrupt-driven data acquisition via RFID readers.
 * 🖥️ Modular Embedded C system development and debugging.
 
+## 👨‍💻 Author
 
+**Sai Prasanna Kuppi Reddy**
+
+* Embedded Systems | ARM7 | Embedded C | Microcontroller Interfacing
+* GitHub: [@sai-prasanna5](https://github.com/sai-prasanna5)
+
+---
 
 <div align="center">
 
