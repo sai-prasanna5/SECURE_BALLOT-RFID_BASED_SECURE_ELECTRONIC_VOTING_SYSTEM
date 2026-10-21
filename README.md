@@ -292,17 +292,6 @@ Mark Voter as Already Voted
 
 ---
 
-## 📷 System Screenshots & Hardware Setup
-
-```markdown
-![SecureBallot Hardware Setup](images/hardware-setup.jpg)
-![SecureBallot Proteus Simulation](images/proteus-simulation.png)
-
-```
-
-*(Place your images in an `images/` directory within the repository).*
-
----
 
 ## 🔮 Future Improvements
 
