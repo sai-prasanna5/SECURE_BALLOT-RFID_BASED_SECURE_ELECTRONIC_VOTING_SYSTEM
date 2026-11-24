@@ -69,44 +69,7 @@ PIN Correct                           →    🟢 Grant Ballot Access → Record
 
 ---
 
-## 🏗️ System Architecture
 
-<div align="center">
-
-
-```
-
-```
-                    +---------------------------------------+
-                    |      NXP LPC2148 Microcontroller      |
-                    |            (ARM7TDMI-S Core)          |
-                    +---+-------+-------+-------+-------+---+
-                        |       |       |       |       |
-  +---------------------+       |       |       |       +---------------------+
-  | (UART1)                     |       |       |                     (UART0) |
-  v                             v       v       v                             v
-
-```
-
-+-----------+                 +---------+ +---+ +-------+                   +-----------+
-| EM-18     |                 |  20x4   | |4x4| | RTC   |                   |  UART0    |
-| RFID      |                 | Character | |Key| |Clock  |                   | System    |
-| Reader    |                 |  LCD    | |pad| |Module |                   | Event Log |
-+-----------+                 +---------+ +---+ +-------+                   +-----------+
-|
-| (I²C Bus)
-v
-+-----------+
-| AT24C256  |
-| External  |
-| I²C EEPROM|
-+-----------+
-
-```
-
-</div>
-
----
 
 ## 🔌 Hardware Components
 
